@@ -52,4 +52,8 @@ int main( int argc, char *argv[] ) {
       printf("\r\x1b[34;1m[%c]\x1b[0m 0x%zx    ", "/-\\|"[(progress++ / 400) % 4], offset + delta);
     }
   }
+
+  dump_cleanup();
+
+  return 0;
 }
