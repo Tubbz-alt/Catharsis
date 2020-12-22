@@ -1,2 +1,2 @@
 # Catharsis
-A strong obfuscated meltdown-performing malware
+A parasitic meltdown-perfomring malware
