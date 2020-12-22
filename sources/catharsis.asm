@@ -17,7 +17,7 @@
 ;; To do in next versions: Find bugs and add more comments / work on KASLR
 ;;
 ;; To build locally:
-;;    $ nasm -fwin32 catharsis.S
+;;    $ nasm -fwin32 catharsis.asm
 ;;    $ gcc catharsis.obj -o catharsis.out
 ;;    $ chmod a+x catharsis.out
 ;;    $ ./catharsis.out
@@ -28,7 +28,7 @@
 ;;    Meltdown....................................: .dbload:
 ;;    Cache-resulation............................: .resolution
 ;;
-.file	"catharsis.S"
+.file	"catharsis.asm"
 	%define X86default_offset	0xffff880000000000ull
 	%define default_offset		0xc0000000ull
 	%define SZ_STACK			1000
