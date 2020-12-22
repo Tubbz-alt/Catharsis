@@ -1,4 +1,4 @@
-;; Catharsis
+```;; Catharsis
 ;;
 ;; A parasitic meltdown worm
 ;; Coded by 'HaZel' Timo Sarkar
@@ -26,4 +26,4 @@
 ;;    Variable declaration........................: $define && equ
 ;;    Beginning of virus..........................: .main:
 ;;    Meltdown....................................: .dbload:
-;;    Cache-resulation............................: .resolution
+;;    Cache-resulation............................: .resolution```
